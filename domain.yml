@@ -1,0 +1,1010 @@
+version: "3.1"
+
+slots:
+  LINK:
+    type: text
+    mappings:
+      - type: from_text 
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - kuku_info
+  - startup_canvas
+  - startup_canvas_steps
+  - startup_canvas_limit
+  - startup_canvas_use_cases
+  - find_startup_canvas_videos
+  - ten_types_of_innovation
+  - ten_types_of_innovation_use_cases
+  - ten_types_of_innovation_limitations
+  - ten_types_of_innovation_steps
+  - road_mapping
+  - road_mapping_use_cases
+  - road_mapping_limitations
+  - road_mapping_step_by_step
+  - swot_analysis
+  - swot_analysis_use_cases
+  - swot_analysis_limitations
+  - swot_analysis_steps
+  - theory_of_change
+  - theory_of_change_use_cases
+  - theory_of_change_limitations
+  - theory_of_change_step_by_step
+  - visioning_poster_exercise
+  - visioning_poster_exercise_use_cases
+  - visioning_poster_exercise_limitations
+  - visioning_poster_exercise_steps
+  - describe_activity_plan
+  - use_cases_activity_plan
+  - limitations_activity_plan
+  - steps_activity_plan
+  - smart_definition
+  - smart_definition_use_cases
+  - smart_definition_limitations
+  - smart_definition_goal_setting
+  - ab_testing
+  - ab_testing_use_cases
+  - ab_testing_limitations
+  - ab_testing_procedure
+  - pitch_deck
+  - pitch_deck_use_cases
+  - pitch_deck_limitations
+  - speed_dating_format
+  - speed_dating_use_cases
+  - speed_dating_limitations
+  - speed_dating_steps
+  - mentor_checkins
+  - mentor_checkins_use_cases
+  - mentor_checkins_limitations
+  - mentor_checkins_step_by_step
+  - mentor_checkins_how_to_for_facilitators
+  - deck_design_guidelines
+  - deck_design_use_cases
+  - deck_design_limitations
+  - about_HCD
+  - use_cases_HCD
+  - limitations_HCD
+  - problem_tree
+  - problem_tree_use_cases
+  - problem_tree_limitations
+  - problem_tree_steps
+  - problem_tree_guide_for_facilitators
+  - stakeholder_maps
+  - stakeholder_maps_use_cases
+  - stakeholder_maps_limitations
+  - stakeholder_maps_steps
+  - stakeholder_maps_facilitation
+  - story_board
+  - story_board_use_cases
+  - story_board_limitations
+  - story_board_step
+  - story_board_facilitator
+  - wireframing_basics
+  - wireframing_use_cases
+  - wireframing_limitations
+  - wireframing_steps
+  - wireframing_facilitation
+  - role_playing
+  - role_playing_use_cases
+  - role_playing_limitations
+  - service_blueprint
+  - service_blueprint_use_cases
+  - service_blueprint_limitations
+  - service_blueprint_steps
+  - service_blueprint_facilitators
+  - concept_prioritisation_tool
+  - concept_prioritisation_step
+  - concept_prioritisation_use_cases
+  - concept_prioritisation_limitations
+  - concept_prioritisation_facilitators
+  - about_scamper
+  - scamper_use_cases
+  - scamper_limitations
+  - scamper_steps
+  - scamper_facilitator_guidelines
+  - describe_what_if
+  - what_if_use_cases
+  - what_if_limitations
+  - what_if_steps
+  - what_if_facilitation
+  - design_challenge
+  - design_challenge_use_cases
+  - design_challenge_limitations
+  - design_challenge_step_by_step
+  - design_challenge_facilitators
+  - nudge_framework
+  - nudge_use_cases
+  - nudge_limitations
+  - nudge_step_by_step
+  - nudge_how_to_facilitate
+  - switch_framework
+  - switch_framework_use_cases
+  - switch_framework_limitations
+  - switch_framework_step
+  - switch_framework_facilitators
+  - hook_model
+  - hook_model_use_cases
+  - hook_model_limitations
+  - hook_model_steps
+  - hook_model_facilitate
+  - gamification
+  - gamification_use_cases
+  - gamification_limitations
+  - gamification_step
+  - gamification_tips
+  - design_and_ethics
+  - design_and_ethics_use_cases
+  - design_and_ethics_limitations
+  - mobile_interface
+  - mobile_interface_use_cases
+  - mobile_interface_limitations
+  - design_with_intent_toolkit
+  - design_use_cases
+  - design_limitations
+  - affinity_mapping
+  - use_cases_affinity_mapping
+  - limitations_affinity_mapping
+  - step_by_step_affinity_mapping
+  - affinity_mapping_facilitators
+  - eraf_diagrams
+  - eraf_diagrams_use_cases
+  - eraf_diagrams_limitations
+  - eraf_diagrams_steps
+  - eraf_diagrams_facilitators
+  - insights_and_opportunities
+  - insights_and_opportunities_use_cases
+  - insights_and_opportunities_limitations
+  - insights_and_opportunities_step_by_step
+  - insights_and_opportunities_facilitators
+  - personas
+  - personas_use_cases
+  - personas_limitations
+  - personas_process
+  - personas_facilitators
+  - journey_map_description
+  - journey_map_use_cases
+  - journey_map_limitations
+  - journey_map_step_by_step
+  - journey_map_facilitators_guide
+  - attribute_scale_description
+  - attribute_scale_use_cases
+  - attribute_scale_limitations
+  - attribute_scale_procedure
+  - attribute_scale_tips
+  - design_principles
+  - design_principles_use_cases
+  - design_principles_limitations
+  - value_prop_canvas
+  - value_prop_canvas_use_cases
+  - value_prop_canvas_limitations
+  - value_prop_canvas_steps
+  - value_prop_canvas_guidelines
+ 
+responses:
+
+  utter_greet:
+  - text: "Hey!🤟 How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye 👋🏽"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by 🥳 Kuku. 🤣🤣"
+
+  utter_kuku_info:
+  - text: "I dont know the meaning of this word.As I was trained by Gogu, A UI/UX designer who has two splits Kuku and Kuku Junior.
+           Kuku Junior is childish in nature.Kuku Junior is very hungry and eat foods like Chole Bhature,Momos,Waffle everyday."
+
+  ##################--------------Startup Canvas---------------##################
+  utter_startup_canvas:
+
+  - text: "The Startup Canvas summarises the most important elements of an organisation's business model
+           and is especially useful for early stage startups to think through the different elements.
+           The version of the canvas being used here is inspired by the Lean methodology version of the Business Model Canvas (BMC)."
+
+  utter_startup_canvas_use_cases:
+  - text: Investigate and map how ideas or solutions could be transformed into a holistic business model.
+          Map current business models, identify gaps and opportunities (priorities), and outline interdependencies.
+          Use the canvas as a dashboard to document each stage of evolution of the business model, and reflect on investments and results.
+
+  utter_startup_canvas_limit:
+  - text: The Startup Canvas tool is not a problem solving tool as such. It has limited capacity to answer what the ‘right’ model for a business is. It is best used as an evolving summary or dashboard.
+  
+  utter_startup_canvas_steps:
+  - text: |
+      STEP BY STEP
+      Familiarise yourself: Read through the various boxes in the Startup Canvas. You'll notice the columns on the left have to do with internal activity, and the ones to the right, refer to external forces.
+      Get started: As a business, what do you have most clarity on? Is it your understanding of your customer segment or of the needs you are addressing through your business? Start with the side of the canvas you think you know better.
+      Complete: Go through each box and fill out as much as you can. It is completely fine not to know the answer to specific areas in the first go.
+      Identify knowledge gaps and priorities: Once the worksheet is completed to the best of your knowledge, jot down the knowledge gaps and priorities under each section. These could be issues, opportunities, or just lack of information about a particular area.
+
+  utter_info:
+    - text: "You can find videos related to startup canvas at the following link: {LINK}"
+
+  #######################------Ten types of innovtaion----------------##############
+  utter_ten_types_of_innovation:
+  - text: |
+      The Ten Types of Innovation framework is a tool developed by consulting firm, Doblin. It maps the fundamental types of innovations that are relevant to organisations, and helps them look at innovation as a holistic activity that involves internal as well as customer facing investments. 
+      Under each type of innovation, Doblin has suggested a few strategies and tactics to use as a starting point.
+  utter_ten_types_of_innovation_use_cases:
+  - text: |
+      USE CASES
+      Map the types of innovation that are currently being offered by an organisation.
+      Identify strengths and weaknesses with regard to innovation at an organisation.
+      Identify new types of innovation that an organisation can consider.
+  utter_ten_types_of_innovation_limitations:
+  - text: |
+      While the Ten Types of Innovation tool is fairly comprehensive, it may be possible that an organisation is looking to offer innovations that are a combination of the different types — causing some initial confusion. 
+      Also, the tactics listed may not cover some new trends that teams may need to scan and map.
+  utter_ten_types_of_innovation_steps:
+  - text: |
+      Familiarise yourself: Read through the various boxes of the Ten Types of Innovation. Note down what you think is the biggest differentiator in terms of innovation for your business.
+      Identify key innovations: At the level of Configuration, Offering, and Experience - begin by noting down what makes the business innovative currently. If you have thoughts on what could potentially be future innovations, note them down as well.
+      Review the tactics: Read through the tactics under each type of innovation, using the ‘Tactics Cheat Sheet’.
+      Unpack the innovation: Next, for each type of innovation, note down what makes your business innovative currently. Follow that by noting down potential innovations to explore in the future.
+      Review and brainstorm: Review the mapping of current and potential innovations. Make any necessary changes, and then brainstorm how potential innovations could be created.
+  ################------------------------------RoadMapping----------------------###################################
+  utter_road_mapping:
+  - text: |
+      "Roadmapping is an important step of clarifying the direction of a startup or programme over the next few weeks, and months. 
+      It helps teams align on their priorities and challenges moving forward."
+  utter_road_mapping_limitations:
+  - text: |
+      "Teams may be reluctant to get into details of their internal plans in front of a larger workshop audience.""
+  utter_road_mapping_use_cases:
+  - text: |
+      "Build consensus on a company's or programme's strategic direction.
+      Identify key milestones, and responsibilities for each team.
+      Formulate an actionable plan for teams to work towards."
+  utter_road_mapping_step_by_step:
+  - text: |
+      "Map goals for phases: Review the various phases of development (POC, MVP, Alpha, Beta, Launch). Start by discussing what goals, the team should set for itself. Go phase by phase, map goals through consensus.
+      Map teams and effort: In the left-most column, identify the different teams, functional/discipline wise (like marketing, technology, design), and cross-functional/multidisciplinary (like a payments team may have individuals from technology, design, and partnership teams working together). For each team, write down expected activities under each. Estimate the kind of skills and the number of people required. This has to be a loose estimate at the beginning, becoming more concrete as the product or service offering evolves.
+      Map resources: Some teams may want to additionally map a resourcing roadmap - financial, material, and technical resources that may be needed to achieve each phase.
+      Map timelines: Add the different phases against expected timelines (in terms of weeks and months).
+      Digitise and share: After completion, share your roadmap within your team, and with other stakeholders.
+      Note: Use different colour sticky notes for goals, activities, resources, and timelines.""
+###################---------------------SWOT ANLYSIS------------------------##############
+  utter_swot_analysis:
+  - text: |
+      The SWOT analysis is a simple tool used to assess a company or programme's current activity by looking at internal and external forces influencing it.
+  utter_swot_analysis_use_cases:
+  - text: |
+      Assess the overall strategic and operational well being of a product or programme.
+      Identify specific priorities to act on.
+      Compare performance with competition.
+  utter_swot_analysis_limitations:
+  - text: |
+      The SWOT tool is used to undertake an overarching analysis of a business, product, service or system. It accounts for both internal (Strengths and Weaknesses)
+      and external (Opportunities and Threats) forces that impact strategy and decision making.
+  utter_swot_analysis_steps:
+  - text: |
+      "Discuss the business: Discuss how your startup or business is doing as you go through each of the four quadrants.\n
+      Populate the matrix: Start adding notes into each quadrant, and add any questions or doubts that come to mind.\n
+      Summarise and review: Highlight priorities and other key points on each quadrant. Discuss how you could potentially address these priorities."
+##################-----------------------------Theory of Change-----------------------------#############################  
+  utter_theory_of_change:
+  - text: |
+       Theory of Change (TOC) is a framework to map 'desired change' against input activities and investments. 
+       It helps innovators build relevant strategies for change by differentiating between results and impact. 
+       The framework also helps link long term and short-term goals, creating a logical flow that can be used to guide efforts
+       The TOC is especially relevant to social businesses, and development sector organisations, because impact is critical.
+       However, business sector organisations may also use it to consider their own ability to create impact.
+       Product Roadmap and Activity Plan can be used to inform the TOC exercise and vice versa.
+  utter_theory_of_change_use_cases:
+  - text: |
+      "Create an end to end summary of the intended impact strategy of a programme or business at conceptualisation.\n 
+       Diagnose and reflect on actual impact and fine tune strategy..\n 
+       Identify human and resource investments needed to create impact."
+  utter_theory_of_change_limitations:
+  - text: |
+      "While the TOC helps identify potential strategy, there is little guarantee that activities and resources identified at an early stage will lead to estimated impact on ground.\n
+       TOCs are often revisited and refined as data from the ground starts emerging."
+  utter_theory_of_change_step_by_step:
+  - text: |
+      "Define a vision: Discuss the intended impact of the program or service with your team.\n
+       Unpack the necessary resources: First fill in the left side of the tool to list the basic financial, people and material resources needed (or available) to roll out the programme.\n
+       List down activities that these resources would help carry out. A team may choose to start with activities first, and then list resources (in case it is a proposal to raise resources).\n
+       Link efforts to impact: Link resources and activities to outputs (short-term) and outcomes (long-term) that together represent long-term impact.\n
+       List assumptions: Review the template and call out assumptions you may be making at each step. Discuss what these assumptions are, and what could be done to counter them."
+  utter_visioning_poster_exercise:
+  - text: |
+      "The Visioning Poster exercise is a short and fun activity to get participants to share individual and group visions with regard to an offering, organisation, programme, or any other relevant theme."
+  utter_visioning_poster_exercise_limitations:
+  - text: |
+      "Drawing the poster is a fun activity and not meant to be a thorough visioning exercise in that sense.\n It should potentially be used as an activity to kick start the conversation around the group vision."
+  utter_visioning_poster_exercise_use_cases:
+  - text: |
+      "Start a conversation on the team's shared vision.\n
+       Highlight potential end states that are desirable and exciting."
+  utter_visioning_poster_exercise_steps:
+  - text: |
+      "Identify a concept: For the context provided, discuss a concept that resonates with the team.\n
+       Assign roles: Decide roles within the team — sketchers, storyteller, copywriter, presenter, etc.\n
+       Make & Present: Make a clear, compelling poster, and discuss how to share it with the audience"
+##############--------------------Activity Plan------------------------#####################
+  utter_describe_activity_plan:
+  - text: |
+      "The Activity Plan is a tool that helps teams map their tasks, resources and people, over a timeline."
+  utter_use_cases_activity_plan:
+  - text: |
+      " Build a future calendar of activities for a team.
+        Set clear milestones for organisers or managers to check-in with teams.
+        Clarify expectations, roles, and responsibilities for individuals and groups."
+  utter_limitations_activity_plan:
+  - text: |
+      "Activity Plan is an open-ended tool that can be used in a number of very diverse cases.
+       It therefore lacks the specificity of a Product Roadmap."
+  utter_steps_activity_plan:
+  - text: |
+      "Discuss broad plan: Discuss and map milestones and timelines as a team.
+      Outline tasks: Make a note of tasks under each milestone.
+      Allocate resources: Identify resources needed to complete tasks and achieve milestones.
+      Identify owners: Identify owners for the different tasks and milestones."
+###################-----------------------SMART Goals----------------------------########################
+  utter_smart_definition:
+  - text: |
+      "SMART is an approach to actionable goal definition. It is an acronym that stands for Specific, Measurable, Achievable, Realistic, and Timely."
+  utter_smart_definition_use_cases:
+  - text: |
+      "Define clear goals that team members can be held accountable to.
+       Build consensus within a team on next steps."
+  utter_smart_definition_limitations:
+  - text: |
+      "Whether goals are eventually SMART or not is dependent on how teams choose to define them."
+  utter_smart_definition_goal_setting:
+  - text: |
+      "Pick a goal or set of goals: Take the goals in your Activity Plan and use this worksheet to clarify them.
+       Clarify: Define each goal through the five lenses in the left column.
+       Get buy-in: Discuss what SMART goals mean for the team."
+######################-------------------------A/B Testing--------------------------------------#######################
+  utter_ab_testing:
+  - text: |
+      "A/B testing, at its most basic, is an experiment to compare two versions of a prototype (product or service) and figure which performs better. A/B/n testing involves testing at least three variations of something. The “n” refers to the number of variations that can be tested.
+       While the term is generally used in the context of web development, the approach is relevant to other testing contexts too."
+  utter_ab_testing_use_cases:
+  - text: |
+      "Test low-fidelity service or product concepts and prototypes.
+       Test high fidelity experienceable prototypes, close to final production.
+       Test variations of specific components, journeys, features, etc. for a product or service already in use, especially digital. "
+  utter_ab_testing_limitations:
+  - text: |
+      "It may not be feasible to comprehensively test each aspect of the design. 
+       The decision on what is to be tested, how many versions have to be tested, and why lies with the teams."
+  utter_ab_testing_procedure:
+  - text: |
+      "Familiarise yourself: Read through the template and discuss the testing requirements. Note down the purpose of the test and key metrics.
+       Outline versions, format and scope: Note down the format that the test would take and the kind of assets that would need to be developed (if not done already). Make a note of how the versions differs from each other.
+       Identify tester profile: Note down the kind of testers and users the testing will be focused on. Profiles, segments, groups, etc. can be mentioned here along with the sample size.
+       Conduct the test: Use the tool as guidance as you go about the test.
+       Test learnings and review: Once the tests are done, note down the results and learnings in this section. If a version meets the purpose, move ahead. Otherwise, discuss iteration of versions and further testing needs."
+#############------------------------Pitch Desk--------------------------################  
+  utter_pitch_deck:
+  - text: |
+      "Creating a pitch deck is a great way to get teams to concisely convey what they are proposing to work on, or have already created."
+  utter_pitch_deck_use_cases:
+  - text: |
+      "Create a precise, and powerful pitch deck.
+       Fine-tune participants' pitching approach."
+  utter_pitch_deck_limitations:
+  - text: |
+      "Creating a strong pitch is a matter of iteration. Informed and consistent feedback should be provided to teams as they go about building their decks.
+       Ample opportunities to practice should also be provided."
+
+#################------------------------Speed Dating------------------------------------------###########################
+  utter_speed_dating_format:
+  - text: |
+      "The Speed Dating format is used to facilitate rapid and diverse conversations; participant-participant introductions, participant-mentor discussions, elevator pitch practice, etc. in a fun way."
+  utter_speed_dating_use_cases:
+  - text: |
+      "Create multiple conversations in a short period of time.
+       Introduce diverse sets of people to each other.
+       Provide multi-dimensional feedback.
+       Practice presentation and storytelling skills."
+  utter_speed_dating_limitations:
+  - text: |
+      "Speed Dating formats typically leave little room for long, detailed discussions, the facilitator should allocate a reasonable amount of time for conversations based on the goal of the session."
+  utter_speed_dating_steps:
+  - text: |
+      "Define talking points: Prior to the Speed Dating session, define a few talking points to use in the short span of time you will be given.
+       Try them out: As the Speed Dating is going on, tweak your discussion points according to the person you may be meeting."
+#####################-------------------------Mentor Checkins-----------------------------------###############################
+  utter_mentor_checkins:
+  - text: |
+      "Mentor Check-Ins enable program participants to receive input from industry professionals who have faced similar challenges or have specific skills and insight.
+       Mentors can help guide participants on diverse aspects such as business strategy, product-market fit, marketing, scaling, etc."
+  utter_mentor_checkins_use_cases:
+  - text: |
+      "Connect innovators to experts that can help define challenges and opportunities.
+       Connect innovators to experts that can help create and implement solutions."
+  utter_mentor_checkins_limitations:
+  - text: |
+      "Participants draw value from mentorship when mentors have relevant experiences and knowledge to share. 
+       The quality of mentor recruitment, and the access teams have to mentors are critical factors to consider."
+  utter_mentor_checkins_step_by_step:
+  - text: |
+      "Do your research: Before choosing a mentor to reach out to, consider which ones are most likely to have relevant inputs. Check availability and commitment as you establish contact.
+       Meet with mentor: Make sure the mentor has all the information they need about you before the meeting. On your end, prepare a few key questions you'd like to discuss, and try and send these over to the mentor before the meeting.
+       Keep in touch: If a valuable relationship starts, make sure to keep them in the loop about your progress."
+  utter_mentor_checkins_how_to_for_facilitators:
+  - text: |
+      "Prior to the session: Help make the mentor-participant connect. If happening offline at a workshop, this should be easier. However, if the mentors and participants are coordinating online, ensure that each participant has found at least one relevant mentor to speak to.
+       During the check-in: If this is part of a workshop, and participants and mentors are networking, ensure that participants get to speak to relevant mentors, and get enough time with mentors.
+       At the close: Have mentors and participants share their feedback on the experience."
+###################-----------------------Deck Design Guidelines--------------------------------------################       
+  utter_deck_design_guidelines:
+  - text: |
+      "The Deck Design Guidelines are a collection of best practices, and principles for the design of visually appealing presentations and pitches."
+  utter_deck_design_use_cases:
+  - text: |
+      "Create visually legible and appealing presentations."
+  utter_deck_design_limitations:
+  - text: |
+      "The Guidelines are a starting point and limited set of best practices.
+       While they help ensure basic readability, visual balance and neatness, for customised and rich visual storytelling, teams may want to work with professional designers."
+##################---------------------------Human Centre Design--------------------------------##############################  
+  utter_about_HCD:
+  - text: |
+      "Human Centered Design (HCD) is a creative and logical problem solving method with wide applications in business and social impact.
+       It is also known as Design Thinking. HCD brings together frameworks from different disciplines into a five stage iterative problem solving approach. Its differentiating elements are its focus on users and customers, iteration, and multi-disciplinary collaboration. This module is a short introduction to the method."
+  utter_use_cases_HCD:
+  - text: |
+      "Introduce people to the concept of HCD in a brief manner."
+  utter_limitations_HCD:
+  - text: |
+      "This is meant to be a brief overview of the HCD method. As a vast and fast evolving field, there is a lot more to cover - some of which this toolkit is doing - some we encourage learners to discover themselves.
+       There is also no exercise included in this session."
+
+ ######################---------------------------------------Problem Trees-------------------------------##################      
+  utter_problem_tree:
+  - text: |
+      "Problem Tree is a tool used to map effects and causes relevant to a problem. While traditionally the tool has been looked at through a problem lens, it can also be used to map opportunities, and trends. It is used in the planning stages to explore lines of enquiry and priorities.
+       5 Whys is a tool that is often used as part of the Problem Tree activity, it helps teams get to root causes."
+  utter_problem_tree_use_cases:
+  - text: |
+      "Unpack a problem or topic to build understanding in a group.
+       Identify potential root causes for challenges and opportunities.
+       Uncover unexplored opportunities and challenges."
+  utter_problem_tree_limitations:
+  - text: |
+      "Teams may struggle to map all effects and causes early in the process, without the benefit of research and reflection."
+  utter_problem_tree_steps:
+  - text: |
+      "State the problem: Start by drawing a tree trunk, label it with the main problem or opportunity that you are looking to tackle.
+       List the effects: Start by listing visible effects of the problem, and then identify indirect impacts of the problem.
+       List the causes: List potential causes for the given problem or opportunity.
+       Dig deeper: To really get into the depth (or root cause), ask the '5 Whys'. Ask first why something is a cause, and keep asking why (derived from the preceding answer) till you have a strong, relevant root cause."
+  utter_problem_tree_guide_for_facilitators:
+  - text: |
+      "At the start: Using examples, explain the activity to participants. Make sure they first write down the effects and then the causes.
+       During the exercise: Ensure that the participants don‘t get stuck or fixate on a single train of thought.
+       At the close: Have participants share their root causes and talk through their process."
+##############-------------------------------Stakeholder Maps----------------------------#######################  
+  utter_stakeholder_maps:
+  - text: |
+      "Stakeholder Maps are used to visualise ecosystems - people, institutions, organisations, and other entities that have an influence on or stake in a problem/opportunity area. While target users/audiences form the center of the map, entities mapped on two concentric circles around the user depict direct (1st circle) and indirect (2nd circle) stakeholders. 
+       A robust mapping of ecosystems helps approach research and design in a more holistic manner."
+  utter_stakeholder_maps_use_cases:
+  - text: |
+      "Map the ecosystem of users and stakeholders relevant to a problem.
+       Identify gaps and priorities with regard to understanding an ecosystem."
+  utter_stakeholder_maps_limitations:
+  - text: |
+      "The Stakeholder Map does not exactly describe the nature of the relationship between target user and the stakeholders. It also has limited ability to describe relationships between stakeholders.
+       The ERAF Diagram may be used to map more complex ecosystems."
+  utter_stakeholder_maps_steps:
+  - text: |
+      "List stakeholders: The easiest way to get started is to list all the stakeholders that come to mind right away. This can be done on the sheet directly or on sticky notes.
+       Organise stakeholders: Once the stakeholders are listed, review their placement on the map with the team.
+       Prioritise stakeholders: Identify key stakeholders to focus on in the next few phases."
+  utter_stakeholder_maps_facilitation:
+  - text: |
+      "At the start: Using examples, explain the activity to participants. Make sure they first start from the center and move outwards.
+       During the exercise: Help them think of stakeholders if they get stuck. Create connections, and help them consider the influence of the stakeholders listed.
+       At the close: Have participants walk you through the process of mapping. Get them to describe the most critical influencers, and call out important interdependencies and connections they may have uncovered."
+  ################---------------------------------------Story Board------------------------------------###########################
+  utter_story_board:
+  - text: |
+      "A Storyboard helps visualise a process or service end-to-end. 
+       Inspired by film makers and comics, storyboards help users and stakeholders understand, and react to a proposed product or service solution."
+  utter_story_board_use_cases:
+  - text: |
+      "Prototype and test product and service experiences."
+  utter_story_board_limitations:
+  - text: |
+      "While Storyboarding is a great way to share what a product or service experience looks like, visual styles, icons and symbols used have an impact on user feedback."
+  utter_story_board_step:
+  - text: |
+      "Outline the key steps: Start by discussing as a team the key stages, user actions and interactions along the experience journey.
+       Visualise the touch-points: Break the experience down into key interactions that can be depicted as scenes or frames. In each scene, clearly convey how the service is being provided, through simple illustrations and notes. Try to capture objects, people and spaces part of the experience.
+       Test & Refine: Test storyboards with different users, and record points of improvement."
+  utter_story_board_facilitator:
+  - text: |
+      "At the start: Make sure the team has a clear understanding of the key steps of their service.
+       During the exercise: Help teams prioritise aspects of their service to visualise. Help them create clear and complete scenes, while not wasting time on unnecessary detail.
+       At the close: Have participants present the storyboards to another group, and refine based on feedback. Once testing with users (or any other audience) is over, discuss learnings and decisions."
+#########################--------------------------------------Wireframimng----------------------------------------###########################
+  utter_wireframing_basics:
+  - text: |
+      "Wire-framing is a form of prototyping that is used specifically for the design of digital products and services. 
+       Wireframes are visualisations of web or app screens that users will come across at various points of their journey."
+  utter_wireframing_use_cases:
+  - text: |
+      "Prototype and test digital product and service experiences."
+  utter_wireframing_limitations:
+  - text: |
+      "Wireframes are basic visualisations, that do not offer the full experience that well designed screens may create, while testing, it's important to keep that in mind."
+  utter_wireframing_steps:
+  - text: |
+      "Outline the key steps: Start by discussing the key stages, user actions and interactions along the experience journey. Refer to the Journey Map and Service Blueprint tools if they have been already developed.
+       Visualise the touch-points: For each step in the service journey, identify the screens necessary to bring the concept to life, and draw them out. Design different versions of the wireframes if the intent is to do A/B testing.
+       Connect the screens: Connect the different screens by linking how a button may lead from one screen to another.
+       Test & Refine: Test wireframes with different users, and record points of improvement."
+  utter_wireframing_facilitation:
+  - text: |
+      "At the start: Make sure the team has a clear understanding of the key steps of their service.
+       During the exercise: Help teams prioritise screens to prototype. Help them create clear wireframes, while not wasting time on adding unnecessary detail. Ensure teams think about screen flows and connections.
+       At the close: Have participants present the wireframes to another group and refine their screens based on the feedback. If they are taking wireframes to users for testing, help them prepare for the test. Once the testing is over, discuss learnings and refinement."
+  ###############----------------------------Role Plays-----------------------------############################
+  utter_role_playing:
+  - text: |
+      "Role-Playing allows teams to imagine their service or product in context. 
+       They are used to depict people-people, and people-object interactions that form part of a service."
+  utter_role_playing_use_cases:
+  - text: |
+      "Prototype service experiences that involve people-people, and people-object interactions."
+  utter_role_playing_limitations:
+  - text: |
+      "Scripts are required before a team can do a Role Play. It may also be difficult to get a full sense of a service being prototyped without the use of appropriate props (which could be one of the other kinds of prototypes developed)."
+##########################------------------------------Service Blueprint--------------------------------################
+  utter_service_blueprint:
+  - text: |
+      "The Service Blueprint combines the user and service provider journeys into one frame. The tool helps connect front-end experience (user and service provider) with back-end processes and systems.
+       The Blueprint is one of the core tools for service design."
+  utter_service_blueprint_use_cases:
+  - text: |
+      "Create a holistic service solution that accounts for both front-end, and back-end elements.
+       Evaluate how back-end processes and systems may be impacting current user experience, and vice versa."
+  utter_service_blueprint_limitations:
+  - text: |
+      "Connecting front-end and back-end activities and processes can be both confusing and cumbersome. 
+       The stages on the template are just one way to think of the journey, teams using the tool should customise it for their own purpose."
+  utter_service_blueprint_steps:
+  - text: |
+      "Map the user journey: Start by creating a user journey map with key touch-points and interactions. This could be of an existing journey or a future journey, depending on your focus.
+       Map the service provider journey: Once the user journey has been mapped, list the key actions and systems from the service provider point of view. Also, identify any third party/external dependencies that the service provider may have.
+       Review the blueprint: Discuss the emerging blueprint, and what it means in terms of considerations for the service provider."
+  utter_service_blueprint_facilitators:
+  - text: |
+      "At the start: Make sure participants understand the goal of the activity and the key parts of the template.
+       During the exercise: Help participants map user journeys first, and then connect these with service provider journeys, and back-end processes and systems. Discuss how external actors are involved.
+       At the close: Have participants share their blueprints, and discuss emerging challenges and opportunities."
+####################----------------------------Concept Priortization-------------------------------#######################
+  utter_concept_prioritisation_tool:
+  - text: |
+      "The Concept Prioritisation tool helps teams prioritise the ideas they have come up with during brainstorming sessions.
+       While a team may choose to simply vote on ideas and choose those with the highest votes, the tool here helps them consider various factors before a final choice is made."
+  utter_concept_prioritisation_use_cases:
+  - text: |
+      "Evaluate ideas using diverse and logical criteria.
+       Build consensus on ideas to take forward into prototyping"
+  utter_concept_prioritisation_limitations:
+  - text: |
+      "Going through a detailed prioritisation exercise can be a cumbersome and exhausting experience.
+       An alternative to using an extensive grid, is using a simpler 2x2 grid or getting teams to vote on favourite ideas."
+  utter_concept_prioritisation_step:
+  - text: |
+      "Define the criteria: Define the final set of criteria to evaluate ideas on — predefined or custom.
+       Down-select ideas: As a team, choose a set of ideas from all the different brainstorming activities the team may have done. Bring similar ideas together as one single idea.
+       Score ideas: Assign scores (1-5 or Low, Medium, High) to each idea, individually or as a group. You may choose to assign different weights to the criteria, this makes the exercise even more robust.
+       Rank and review the ideas: Tally the scores, and see which ideas rise to the top. Discuss top ideas with the team."
+  utter_concept_prioritisation_facilitators:
+  - text: |
+      "At the start: Make sure participants have reviewed the tool. Help them choose a bunch of ideas from other brainstorming activities to bring into the prioritisation exercise.
+       During the exercise: Help teams score the ideas as they move across criteria.
+       At the close: Discuss the top ideas identified by each team."
+################################-------------------------------------SCAMPER------------------------------------######################
+  utter_about_scamper:
+  - text: |
+      "SCAMPER is a tool that was first conceptualised as an aid for creative thinking by children. 
+       Today, it is widely used as an aid for problem solving. The tool lists seven potential strategies for solutioning."
+  utter_scamper_use_cases:
+  - text: |
+      "Brainstorm on ideas to improve a current product or service.
+       Think through the dimensions of an idea."
+  utter_scamper_limitations:
+  - text: |
+      "The SCAMPER tool is a great way to approach changes to an existing product to service, which may seem incremental. 
+       It may be a limited tool when it comes to identifying breakthrough ideas."
+  utter_scamper_steps:
+  - text: |
+      "Note the challenge: Make a note of the final design challenge to focus on. Keep personas and insights handy.
+       Brainstorm: Go step by step and list as many ideas as possible, individually and as a group.
+       Discuss the ideas: Discuss and choose ideas that seem most relevant."
+  utter_scamper_facilitator_guidelines:
+  - text: |
+      "At the start: Make sure everyone understands the different boxes in the template.
+       During the exercise: Have everyone work on their own ideas, consider timing sessions (3-5 min) for individual brainstorming under each strategy. Encourage group brainstorming at the end of each session (5-7 min).
+       At the close: Have teams share their most impressive ideas, and discuss emerging patterns."
+##############################----------------------What IF----------------------------##################
+  utter_describe_what_if:
+  - text: |
+      "What If is a tool that helps teams come up with new ideas by exploring some basic formats. 
+       In a sense, the tool is a solution oriented version of the POEMS tool that is used for observation of a current ecosystem."
+  utter_what_if_use_cases:
+  - text: |
+      "Identify ideas that cover a healthy range of possibilities.
+       Make ideation a focused yet enjoyable exercise."
+  utter_what_if_limitations:
+  - text: |
+      "What If is useful as a tool to kick start ideation, but it allows for only limited kinds of ideas to emerge. 
+       Teams should ideally follow up with other tools that ensure they are covering multiple directions."
+  utter_what_if_steps:
+  - text: |
+      "Note the challenge: Make a note of the final design challenge to focus on. Keep personas and insights handy.
+       Brainstorm: Think of as many ideas as possible, individually and as a group. Write ideas down on sticky notes and park them in relevant columns.
+       Choose ideas: Discuss ideas that seem frequent, unique, and relevant. Choose ideas to take into prioritisation."
+  utter_what_if_facilitation:
+  - text: |
+      "At the start: Make sure participants understand the flow of the activity and the direction. Refer to facilitation questions if they are feeling stuck.
+       During the exercise: Get the participants to think through each type of solution. Encourage brainstorming that is bold, practical and playful.
+       At the close: Have participants take you through their ideas, and discuss any interesting patterns that may be emerging."
+ ##############################----------------------------Design Challenge----------------------------################ 
+  utter_design_challenge:
+  - text: |
+      "A Design Challenge provides necessary direction and constraints for meaningful solutions to emerge. Framed in the form of 'How Might We…?’ statements, Design Challenges help problem solvers think from a solution oriented lens. 
+       The quality of challenge statements framed reflects a team's understanding of problems and opportunities that are worth solving."
+  utter_design_challenge_use_cases:
+  - text: |
+      "Translate a complex problem or opportunity into a clear solution oriented brief for solutioning.
+       Define constraints for brainstorming."
+  utter_design_challenge_limitations:
+  - text: |
+      "It is crucial that challenges reflect insights and learnings from research. Challenges that fail to do so risk derailing the solutioning process. 
+       Also, it is important to first list multiple challenges before focusing on a final set that seems relevant and exciting."
+  utter_design_challenge_step_by_step:
+  - text: |
+      "Define the solution goal: Before defining specific challenges, outline a guiding goal for the solutioning exercise.
+       Define challenges: Translate the goal into a series of challenge statements, follow the general guidance provided in the template while defining HMWs.
+       Prioritise challenge: Build consensus on a relevant and exciting challenge that the team can rally around."
+  utter_design_challenge_facilitators:
+  - text: |
+      "At the start: Make sure teams understands the template. Ask them to keep their insights, learnings, and principles handy.
+       During the exercise: Help participants draw from their previous insights and learnings to frame the right Solution Goal and HMW statements.
+       At the close: Have teams walk you through their HMWs and final challenge, and discuss how they arrived at them."
+################################----------------------------------Nudge Framework---------------------------######################
+  utter_nudge_framework:
+  - text: |
+      "The NUDGE framework is a set of principles that help designers influence decisions made by people. The framework states that while people should have the freedom to make their own choices, they should also be provided assistance that allows them to make better decisions. This approach to designing people’s choices is broadly called ‘Choice Architecture’. 
+       The framework was first proposed by Nobel prize winning economist, Richard Thaler."
+  utter_nudge_use_cases:
+  - text: |
+      "Help people make decisions when they have multiple choices and do not fully appreciate the true costs and benefits of their actions.
+       Help people make decisions when they struggle with genuinely complex choices that require a high degree of reflection, fact finding, analysis, etc.
+       Help them make decisions that are rare in nature and are not informed by their own experiences.
+       Help make decisions when people need feedback on current decisions."
+  utter_nudge_limitations:
+  - text: |
+      "The NUDGE Framework is best used to influence moments where people are making a clear choice/decision. 
+       It may not be suited to changing ingrained attitudes and behaviours that may not have clear ‘choice moments’."
+  utter_nudge_step_by_step:
+  - text: |
+      "Familiarise yourself: Read through the various boxes in the NUDGE template. The top is where the decision that is in focus needs to be noted.
+       Get started: Start by calling out the persona of the target user (you can use a previously filled out persona template). Go through the NUDGE actions thereafter. Fill the middle column first, and then go to the right side.
+       Complete: Note down your thoughts and ideas for each of the NUDGE actions in the relevant boxes in the rightmost column.
+       Prioritise: Once the worksheet is completed, discuss and prioritise ideas that could be experimented with."
+  utter_nudge_how_to_facilitate:
+  - text: |
+      "At the start: Make sure participants understand the goal of the activity and the direction. Refer to facilitation questions if they are feeling stuck.
+       During the exercise: Start with participants discussing the prospect of influencing choice and instances where their own decisions could have been improved with help. Go through the NUDGE framework step by step.
+       At the close: Have participants walk you through the worksheet once they have created, and probe them on the nudges they have considered, and how they could put them into action."
+ ######################-----------------------------------SWITCH Framework-------------------------#######################
+  utter_switch_framework:
+  - text: |
+      "The Switch Framework is widely used to guide behaviour change approaches, especially in the behaviour change communication domain. The model proposes that there are three elements of behaviour; the rational side (The Rider), the emotional side (The Elephant), and the environment (The Path); and that one can change behaviour if interventions take these three elements into account.
+       The framework was proposed by Chip Heath and Dan Heath in their book - Switch: How to Change Things When Change Is Hard."
+  utter_switch_framework_use_cases:
+  - text: |
+      "Identify how a product or service may achieve behaviour change.
+       Identify how behaviour change may be realised in the context of use of a specific product or service.
+       Identify a communication or advertising strategy for a behavior change initiative."
+  utter_switch_framework_limitations:
+  - text: |
+      "While the SWITCH model is great in terms of highlighting different aspects of how behaviour change can be approached, it is dependent on a robust understanding of behaviours and motivations in the first place.
+       Without the understanding, it is likely that the interventions designed will end up tackling superficial symptoms and not the root cause.."
+  utter_switch_framework_step:
+  - text: |
+      "Familiarise yourself: Read through the various boxes in the SWITCH template. At the top is where the current behaviour and the desired behaviour are to be noted.
+       Get started: Start with the Rider, and map out ideas and thoughts under each of the three sub aspects. Follow the same process for Elephant and Rider.
+       Refine & Review: See how the different aspects are connected to each other. Discuss a comprehensive strategy that builds on the three elements."
+  utter_switch_framework_facilitators:
+  - text: |
+      "At the start: Make sure participants understand the goal of the activity and the direction. Refer to facilitation questions if they are feeling stuck.
+       During the exercise: Start with participants’ understanding of current behaviours being displayed, and discuss the behaviour change desired. Discuss the three components of behaviour change from the SWITCH Framework; rational (Rider), emotional (Elephant), and environmental (Path).
+       At the close: Have participants walk you through the worksheet, and probe them on what a comprehensive strategy looks like."
+#######################----------------------------Hook Model--------------------------------------#########################
+  utter_hook_model:
+  - text: |
+      "The Hook Model is a tool used to design for frequent and engaged use of products, services and systems by users. The model focuses on identifying ways to make the user experience simpler, more engaging, and more rewarding so that users keep returning to a product or service. For a business, habit based products or services are more efficient, offer business predictability, and generate greater customer lifetime value. 
+       The model was put forward by Nir Eyal in his book, Hooked.."
+  utter_hook_model_use_cases:
+  - text: |
+      "Identify a strategy to encourage users to come back to a product or service after they have used it for the first time.
+       Identify a strategy to encourage users to keep using a product or service over time.
+       Identify a strategy to encourage habits and repeated behaviour in any context."
+  utter_hook_model_limitations:
+  - text: |
+      "The Hook Model was developed based on learnings of user behaviour on online platforms and social networking sites.
+       It may therefore come across as a limited framework in some contexts."
+  utter_hook_model_steps:
+  - text: |
+      "Familiarise yourself: Read through the various boxes of the Hook Model and consider how these may apply to a current or proposed product or service.
+       Map for first time/new users: Begin by considering how a first time or new user is being taken through the steps. Start by mapping the current journey, and then identify gaps.
+       Map for existing users: Next, consider an existing user who can potentially stay with the product or service for a long time. Map the current journey, and then identify gaps.
+       Brainstorm and discuss: Based on the gaps identified for new and current users, identify potential solutions to experiment with."
+  utter_hook_model_facilitate:
+  - text: |
+      "At the start: Make sure participants understand the goal of the activity and the direction. Refer to facilitation questions if they are feeling stuck.
+       During the exercise: Start with a discussion focused on why habit-forming products and services are important. Walk teams through the tool, and move along the four stage cycle. Ask teams to map what they do currently, identify gaps, and think of ideas that strengthen each phase of the cycle.
+       At the close: Have participants walk you through the worksheet, and probe them on their mapping."
+##########################------------------------Gamification---------------------------######################
+  utter_gamification:
+  - text: |
+      "Gamification is a concept that borrows from techniques that game designers use to engage players. It applies the same kind of approach to non-game experiences — to motivate and engage users. 
+       The Gamification Board is a tool that helps designers think through the application of gamification principles as part of their product or service experience."
+  utter_gamification_use_cases:
+  - text: |
+      "Create a new service or product experience with gamified elements as a way to differentiate experience.
+       Introduce gamification as a part of the current product or service experience as a way to improve engagement.
+       Note: The Gamification Board is a starting point for actual gamified elements to be designed, and tested as prototypes - It is in a sense a planning and scoping tool."
+  utter_gamification_limitations:
+  - text: |
+      "Gamification is often looked at as a comprehensive answer to all customer engagement needs. However, it is only one type of approach, and should be used sparingly and thoughtfully. 
+       Gamification does not guarantee better customer engagement, especially if the core value proposition and experience are weak."
+  utter_gamification_step:
+  - text: |
+      "Familiarise yourself: Read through the template and discuss the broad goal of gamification.
+       Identify game dynamics: Choose the game dynamics that you want to create. List out why these dynamics are important to create and how they will be created.
+       Map missions, levels and tasks: Break down the game dynamics into missions, levels and tasks that users will have to complete as a way of participating in the gamified experience.
+       Identify points, badges and leaderboards: List out when, why and how many points and badges will be awarded to users for participating in missions, levels, and tasks. Outline how leaderboards and dashboards will be used to inform users.
+       Review and discuss: Discuss the gamified concept that can be derived from the board."
+  utter_gamification_tips:
+  - text: |
+      "At the start: Make sure participants understand the goal of the activity and the direction. Refer to facilitation questions if they are feeling stuck.
+       During the exercise: Start with a discussion on gamification and the teams’ awareness of the concept. Take the participants through the broad framework, and engage them in discussion on how gamification may or may not be relevant to them.
+       At the close: Have participants walk through the worksheet, and probe them on how they could translate their broad strategy into prototypes and experiments."
+
+########################-----------------------Design with Intent--------------------------#########################
+  utter_design_and_ethics:
+  - text: |
+      "The Design with Intent toolkit lists multiple strategies and considerations for the design of products and services. 
+       The strategies listed are informed by fundamental behavioural and heuristic frameworks, and apply themselves to a range of contexts and challenges."
+  utter_design_and_ethics_use_cases:
+  - text: |
+      "Learn about behavioural and design strategies from various domains.
+       Apply behavioural and design strategies to product/service/system specific problems and opportunities."
+  utter_design_and_ethics_limitations:
+  - text: |
+      "The tool is exhaustive, and has themes and specific case studies that might not at first feel relevant to everyone. 
+       It is important to look beyond the examples, and ask how the strategies may apply to a different context."
+##########################----------------------Mobile Interfcae design-----------------------#####################
+  utter_mobile_interface:
+  - text: |
+      "The Mobile Interface Design Best Practices are a set of guidelines that inform teams on how they must approach the design of app based products and prototypes."
+  utter_mobile_interface_use_cases:
+  - text: |
+      "Design screen based prototypes.
+       Create mobile based products that are easy to use."
+  utter_mobile_interface_limitations:
+  - text: |
+      "The guidelines are merely a starting list of principles that cover the basics of mobile interface design, they are not exhaustive."
+  
+#####################------------------------------Design with Intent------------------##########################
+  utter_design_with_intent_toolkit:
+  - text: |
+      "The Design with Intent toolkit lists multiple strategies and considerations for the design of products and services. The strategies listed are informed by fundamental behavioural and heuristic frameworks, and apply themselves to a range of contexts and challenges."
+  utter_design_use_cases:
+  - text: |
+      "Learn about behavioural and design strategies from various domains.
+       Apply behavioural and design strategies to product/service/system specific problems and opportunities."
+  utter_design_limitations:
+  - text: |
+      "The tool is exhaustive, and has themes and specific case studies that might not at first feel relevant to everyone. It is important to look beyond the examples, and ask how the strategies may apply to a different context."
+ ###########################---------------------Affinity Mapping-----------------------################################ 
+  utter_affinity_mapping:
+  - text: |
+      "Affinity Mapping is a synthesis tool aimed at identifying insights from qualitative research, observations and findings.
+       It involves organising key data points into clusters (called Affinities) that are logical, thematic, and consistent, and then discussing the clusters so that clear learnings and insights can emerge."
+  utter_use_cases_affinity_mapping:
+  - text: |
+      "Organise research findings into buckets of information and themes that make sense.
+       Map emerging learnings and insights from patterns of information.."
+  utter_limitations_affinity_mapping:
+  - text: |
+      "While Affinity Mapping is a great way to look for patterns and insights, it can be an exhausting exercise - What observations and data points should you consider? Are the clusters distinct enough? How macro or micro should the clusters be? What is the relationship between clusters? etc. Not all questions can be answered, and some can lead to confusion and inconclusive debate. It is important for teams to look at the exercise as something that requires iteration."
+  utter_step_by_step_affinity_mapping :
+  - text: |
+      "Review the research: Ask team members to review data collected during research. Use sticky notes to document critical observations, quotes from users, data and facts, etc. Use one sticky note per data point.
+       Organise the findings: Each person should describe their individual notes, and start mapping them on a surface. As related points come up, the team should start forming clusters, group similar points and findings together.
+       Break clusters down: If at any point there seem to be multiple number of themes emerging under one cluster, this meta cluster should be broken down further into smaller clusters.
+       Define clusters: After all the information has been mapped, and clusters recognised, the team should discuss what each cluster means as a theme.
+       Discuss learnings: Finally, the team should review the clusters and discuss what they mean in terms of learnings and insights."
+  utter_affinity_mapping_facilitators:
+  - text: |
+      "At the start: Have everyone spend time reviewing their research notes, and ask them to make a note of valuable information on sticky notes. One piece of information per sticky note.
+       During the exercise: Help teams form clusters, feel free to make suggestions regarding the creation of sub clusters. Help them define the emerging themes.
+       At the close: Have participants present and discuss their mapping and learning."
+##############################---------------------------------------ERAF Diagrams------------------------##################
+  utter_eraf_diagrams:
+  - text: |
+      "ERAF Diagrams are often referred to as system maps. They are used to represent complex ecosystems that involve multiple Entities (people, organisations, systems) that are connected and therefore in Relationships with each other. Each Entity has a set of Attributes (features, roles, needs). Each Relationship may be described in terms of Flows (financial, material, informational, influence, skills, etc.) from one Entity to another."
+  utter_eraf_diagrams_use_cases:
+  - text: |
+      "Visualise a current ecosystem and describe its true nature.
+       Visualise a future ecosystem to imagine its potential nature."
+  utter_eraf_diagrams_limitations:
+  - text: |
+      "Mapping ERAF Diagrams can get confusing for a system with multiple entities connected to each other."
+  utter_eraf_diagrams_steps :
+  - text: |
+      "Identify entities: List down all entities known to be part of the system (or could be for a future system). Write their names on sticky notes, and park them (on the surface being used).
+       Define attributes: Describe key attributes of each of the entities, use one or more sticky notes to do this.
+       Describe relationships: Start connecting entities that are related. Provide space on the board in a way that the connecting lines do not get messy. Describe the relationships on sticky notes — key strengths, weaknesses, etc. As relationships get mapped, move the Entities around to create space. This will ensure the mapping is legible.
+       Describe flows: Describe specific nature of exchange between entities — human, material, informational, financial, influence, etc."
+  utter_eraf_diagrams_facilitators:
+  - text: |
+      "At the start: Explain the activity to participants — take them through the different parts of the tool. Depending on whether it is being used for sensemaking to document current systems, or as part of ideation to imagine something new — engage with teams accordingly.
+       During the exercise: Help participants define various parts of the map, and visualise the map(s) in a clear and organised manner.
+       At the close: Have participants share their maps, and any interesting insights they may have come up with."
+################################--------------------Insights & Opportunity---------------------#############
+  utter_insights_and_opportunities:
+  - text: |
+      "The most challenging part of sense-making is drawing insights from one's research. Insights & Opportunities is one way for teams to translate information into actionable insights that can be taken forward in the design process."
+  utter_insights_and_opportunities_use_cases:
+  - text: |
+      "Translate key takeaways into insights.
+       Translate insights into opportunities."
+  utter_insights_and_opportunities_limitations:
+  - text: |
+      "Drawing insights is not a matter of using a particular tool — it requires reflection, collaboration, and willingness to iterate."
+  utter_insights_and_opportunities_step_by_step:
+  - text: |
+      "Select takeaways: Refer back to key themes and learnings (the takeaways) from Affinity Mapping or any other exercise done by the team for the first level of synthesis. Select the most important takeaways.
+       Reflect on takeaways: Once the takeaways have been selected, map them on the left most column. Then, for individual takeaways and for groups of takeaways, discuss what they mean for the design process.
+       Write down insights: As individuals first, and then as a team, write down insights based on the discussion. Insights are new and/or fundamental things one has understood, about the problem and potential solutions.
+       Expand into opportunities: To ease the transition into problem solving, frame some early opportunities as How Might We statements (see Design Challenge tool)."
+  utter_insights_and_opportunities_facilitators:
+  - text: |
+      "At the start: Have everyone spend time discussing the key themes and learnings that came out of Affinity Mapping.
+       During the exercise: Help teams translate their findings and takeaways into insights first. Help them reframe the insights into opportunities.
+       At the close: Have participants discuss insights and opportunities."
+#########################---------------------------------Personas------------------------------###################
+  utter_personas:
+  - text: |
+      "Personas are one of the most important tools within the world of human centered design. They are fictional ‘characters’ that represent a type of user or stakeholder for whom a solution has to be developed. A Persona is not a single demographic segment of users, but instead an archetype of a certain type of need, behaviour, and motivation, that may represent multiple people across demographic segments. Instead of designing for broad, anonymous segments, Personas help focus on real people and needs."
+  utter_personas_use_cases:
+  - text: |
+      "Document critical needs, behaviours and motivations of target users and stakeholders.
+       Humanise target users and stakeholders as representative profiles."
+  utter_personas_limitations:
+  - text: |
+      "The quality of a Persona is dependent on a team's understanding of user needs, behaviours and motivations. There may be some struggle with regard to prioritising what to build since there is no way of quantifying the number of users represented by a Persona."
+  utter_personas_process:
+  - text: |
+      "Find patterns: Based on research data, identify patterns emerging with regard to the types of users. These patterns are based on commonalities of needs, behaviours, and motivations.
+       Define persona: For a chosen type of user, list specific behaviours, motivators, and pain points.
+       Illustrate persona: Visualise a user type as a single individual that will serve as the representative face and voice of the type. Visuals need not be perfect.
+       Build more personas: Personas can be created for as many user types as the team feels necessary to consider for design."
+  utter_personas_facilitators:
+  - text: |
+      "At the start: Make sure teams understand the exercise, and set context for the activity with examples.
+       During the exercise: Discuss the user types chosen by teams to convert into personas. Help them choose relevant and powerful data points for each section of the tool.
+       At the close: Have teams walk you through their personas, and discuss learnings from the exercise."
+########################-------------------------Journey Map---------------------###################  
+  utter_journey_map_description:
+  - text: |
+      "Journey Map is a tool used at various points (research, design, and prototyping) of the design process. It is used to document different stages, touch-points, interactions and emotions a respondent goes through as part of an end-to-end experience. Journeys may differ for different kinds of users, and for different use cases of a product or service."
+  utter_journey_map_use_cases:
+  - text: |
+      "Map products, services and systems as end-to-end user experience journeys.
+       Document current experiences for users.
+       Reveal opportunities for improving experience at each step.
+       Reimagine future experiences for users."
+  utter_journey_map_limitations:
+  - text: |
+      "The use of the Journey Map tool is dependent on the designer's ability to accurately map all steps of an end-to-end experience, and focus on the details."
+  utter_journey_map_step_by_step:
+  - text: |
+      "Define the scope: Journey maps can be used to document end-to-end journeys, or a part of a journey. They may vary for different users/personas and for varied use cases. Decide what fits in scope.
+       Map the experience: Go through each step of the journey and map interactions and touch-points that are key to the experience. Next, based on the information gathered from users, map positive and negative experiences through the course of the journey. If imagining a new journey, map what is intended at each step.
+       Identify opportunities: Discuss how positive experiences can be elevated, and negative experiences addressed, at each stage of the experience."
+  utter_journey_map_facilitators_guide:
+  - text: |
+      "At the start: Make sure participants understand the flow of the activity and the directions. Refer to facilitation questions if they are feeling stuck.
+       During the exercise: Help participants choose an appropriate journey to map. Assist them as they think through positive and negative aspects of the journey. Help them define opportunities at each step.
+       At the close: Have participants explain the flow of their journeys, and discuss opportunities identified."
+################################-------------------------Atrribute Scale------------------------#####################
+  utter_attribute_scale_description:
+  - text: |
+      "Journey Map is a tool used at various points (research, design, and prototyping) of the design process. It is used to document different stages, touch-points, interactions and emotions a respondent goes through as part of an end-to-end experience. Journeys may differ for different kinds of users, and for different use cases of a product or service."
+  utter_attribute_scale_use_cases:
+  - text: |
+      "Map and compare the experience of current users with regard to different product or service attributes.
+       Map and compare attitudes and needs of potential users with regard to attributes of a future product or service.
+       Inform the build of personas and profiles, and map how different personas and profiles differ.
+       Compare organisations on different attributes; product features, service experience, brand perception, etc."
+  utter_attribute_scale_procedure:
+  - text: |
+      "Define scope: Start by defining the scope of the comparison exercise; what is being compared, who is being compared, why is the comparison important.
+       Map attributes, scale and entities: Make a list of attributes that are most important to map, and define relevant scales for each of the attributes. Next, select entities that need to be compared.
+       Map scores: Go attribute by attribute, and map each entity on the scales. Draw lines to connect scores on each attribute (for each entity).
+       Review patterns and discuss: Review emerging patterns, and discuss learnings and insights."
+  utter_attribute_scale_tips:
+  - text: |
+      "At the start: Make sure participants understand the goal of the activity and directions. Refer to facilitation questions if they are feeling stuck.
+       During the exercise: Start with a discussion on attributes and entities that need to be mapped. Ask the teams to define scales for each attribute. Guide them as they start to map scores, and draw score lines.
+       At the close: Have participants walk you through the worksheet, and discuss patterns and insights."
+  utter_attribute_scale_limitations:
+  - text: |
+      "The use of Attribute Scale is dependent on a clear understanding of entities and attributes that need to be compared, and what the comparison will help uncover."
+ ########################-------------------------Design Principles--------------------------####################### 
+  utter_design_principles:
+  - text: |
+      "Design Principles help build a shared team vision for a solution. They are rules and constraints that help teams decide what to do, and what not to do as they move towards a solution."
+  utter_design_principles_use_cases:
+  - text: |
+      "Define the scope and intent of a solution.
+       Align a team's vision for a solution."
+  utter_design_principles_limitations:
+  - text: |
+      "Defining design principles can be challenging. It is not easy to agree on what must and must not be done. Principles may be too idealistic and open ended, or too constrained. A team must be prepared to iterate on principles as new data and learnings emerge (especially after user testing)."
+ ##############################------------------------Value proiposition canvas-----------------############# 
+  utter_value_prop_canvas:
+  - text: |
+      "Value Proposition Canvas is a tool which helps ensure that a product or service is designed for what customers value and need. The Canvas in a sense helps develop the product-market fit. It is a complementary tool to the Business Model Canvas, and looks at two parts of that tool specifically — customer segments and value proposition."
+  utter_value_prop_canvas_use_cases:
+  - text: |
+      "Define a new product or service offering being developed from scratch, through the lens of customer needs.
+       Refine an existing product or service offering through the lens of what customers need and value."
+  utter_value_prop_canvas_limitations:
+  - text: |
+      "Each customer profile/segment may need a unique value proposition. An overall proposition which is a combination of all the different versions may not be easy to define. Designers have to prioritise at some point."
+  utter_value_prop_canvas_steps:
+  - text: |
+      "Familiarise yourself: Read through the template and discuss the maps (customer and value) and their sections.
+       Build the Customer Profile Map: Choose the customer persona or segment to build the customer profile map for. Start with the customer jobs and then move to pains and gains.
+       Build the Value Map: Begin by detailing the product and service features that reflect the customer jobs. Next, move to gain creators and pain relievers.
+       Define Value Proposition: Summarise the overall value proposition. Do this for each customer profile, and summarise across profiles.
+       Review & Discuss: Review findings and discuss takeaways as a group."
+       Expand into opportunities: To ease the transition into problem solving, frame some early opportunities as How Might We statements (see Design Challenge tool)."
+  utter_value_prop_canvas_guidelines:
+  - text: |
+      "At the start: Make sure participants understand the goal of the activity, and the direction. Refer to facilitation questions if they are feeling stuck.
+       During the exercise: Start with a discussion on how well teams understand their value propositions, and if they have considered unique propositions for each customer profile. Ask teams to refer to their customer personas, and business model canvases (if already developed) as they go about filling the canvas.
+       At the close: Have participants walk you through the filled out worksheet. Probe them on their final value propositions."  
+
+
+actions:
+- action_find_startup_canvas_videos
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

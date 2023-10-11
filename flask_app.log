@@ -1,0 +1,126 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 154
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 22:19:13] "GET /get?msg=%20How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 163
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 22:20:22] "GET /get?msg=use%20cases%20of%20startup%20canvas HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 2
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 22:21:04] "[35m[1mGET /get?msg=What%20are%20the%20use%20cases%20of%20the%20Startup%20Canvas? HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 140
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 22:21:23] "GET /get?msg=How%20can%20the%20Startup%20Canvas%20be%20used? HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 173
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 22:26:11] "GET /get?msg=How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 22:49:10] "[35m[1mGET /get?msg=How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 121
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 22:49:23] "GET /get?msg=How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 289
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 23:14:11] "GET /get?msg=How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 249
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 23:19:55] "GET /get?msg=How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 299
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 23:26:35] "GET /get?msg=How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 365
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 23:30:49] "GET /get?msg=:%20use%20cases%20of%20startup%20canvas HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 315
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2023 11:22:28] "GET /get?msg=How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2023 12:05:15] "[35m[1mGET /get?msg=hi HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2023 12:05:31] "[35m[1mGET /get?msg=hi HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 225
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2023 12:05:39] "GET /get?msg=hi HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\actions\\actions.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+INFO:werkzeug: * Detected change in 'C:\\Work\\ebot\\Rasa\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 616-050-758
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2023 12:37:50] "[35m[1mGET /get?msg=How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 315
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2023 12:38:01] "GET /get?msg=How%20to%20find%20startup%20canvas%20tutorials? HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 360
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2023 12:43:31] "GET /get?msg=what%20is%20affinity%20mapping HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-441-255
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2023 17:01:44] "GET / HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 64
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2023 17:01:50] "GET /get?msg=hi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5005
+DEBUG:urllib3.connectionpool:http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 360
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2023 17:01:58] "GET /get?msg=what%20is%20affinity%20mapping HTTP/1.1" 200 -
